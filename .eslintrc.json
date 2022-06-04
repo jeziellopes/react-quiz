@@ -35,7 +35,8 @@
     "@typescript-eslint/no-namespace": "off",
     "no-useless-constructor": "off",
     "n/no-path-concat": "off",
-    "no-unused-vars": "warn",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["error"],
     "no-redeclare": "off",
     "import-helpers/order-imports": [
       "warn",
