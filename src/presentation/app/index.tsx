@@ -1,5 +1,6 @@
+import Routes from '@presentation/routes'
 import React from 'react'
 
-const App = () => <h1>React Quiz</h1>
+const App = () => <Routes />
 
 export default App
