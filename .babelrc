@@ -1,0 +1,14 @@
+{
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "@data": "data",
+        "@domain": "domain",
+        "@infra": "infra",
+        "@main": "main",
+        "@presentation": "presentation"
+      }
+    }]
+  ]
+}
