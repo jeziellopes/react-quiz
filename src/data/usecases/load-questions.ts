@@ -12,7 +12,7 @@ export class RemoteQuestionsLoader implements QuestionsLoader {
   async load (quizId: string): Promise<QuestionsLoader.Model[]> {
     const httpResponse = await this.httpClient.request({
       url: `${this.url}/${quizId}`,
-      method: 'post'
+      method: 'get'
     })
 
     switch (httpResponse.statusCode) {
