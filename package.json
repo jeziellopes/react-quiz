@@ -8,7 +8,8 @@
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "lint": "eslint . --ext .ts,.tsx",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "env:copy": "cp .sample.env .env"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.27.0",

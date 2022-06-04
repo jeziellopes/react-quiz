@@ -36,6 +36,12 @@
   git checkout develop
 ```
 
+### Generate .env:
+
+```shell
+  yarn env:copy
+```
+
 ### Start development server:
 
 ```shell
