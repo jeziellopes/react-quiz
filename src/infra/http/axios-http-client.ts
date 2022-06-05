@@ -6,32 +6,32 @@ export class AxiosHttpClient implements HttpClient {
   private baseURL?: string
   private instance?: AxiosInstance
 
-  constructor (baseURL: string) {
+  constructor(baseURL: string) {
     this.baseURL = baseURL
   }
 
-  public getInstance () {
+  public getInstance() {
     if (!this.instance) {
       this.instance = axios.create({ baseURL: this.baseURL })
     }
     return this.instance
   }
 
-  async request (data: HttpRequest): Promise<HttpResponse> {
+  async request(data: HttpRequest): Promise<HttpResponse> {
     let axiosResponse: AxiosResponse
     try {
       axiosResponse = await this.getInstance().request({
         url: data.url,
         method: data.method,
         data: data.body,
-        headers: data.headers
+        headers: data.headers,
       })
     } catch (error: any) {
       axiosResponse = error.response
     }
     return {
       statusCode: axiosResponse.status,
-      body: axiosResponse.data
+      body: axiosResponse.data,
     }
   }
 }
