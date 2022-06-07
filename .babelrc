@@ -3,6 +3,7 @@
     ["module-resolver", {
       "root": ["./src"],
       "alias": {
+        "@adapters": "adapters",
         "@data": "data",
         "@domain": "domain",
         "@infra": "infra",
