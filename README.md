@@ -22,28 +22,20 @@
 
 ---
 
-## How to use
+## How to start locally
 
-### Install dependencies:
+```typescript
 
-```shell
+  /** Install dependencies: **/
   yarn
-```
 
-### Change to develop branch:
-
-```shell
+  /** Change to develop branch **/
   git checkout develop
-```
 
-### Generate .env:
-
-```shell
+  /** Generate .env **/
   yarn env:copy
-```
 
-### Start development server:
-
-```shell
+  /** Start development server **/
   yarn start
+
 ```
