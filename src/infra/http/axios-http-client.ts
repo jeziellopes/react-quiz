@@ -1,4 +1,3 @@
-/* eslint-disable no-use-before-define */
 import { HttpRequest, HttpResponse, HttpClient } from '@data/protocols/http'
 import axios, { AxiosInstance, AxiosResponse } from 'axios'
 
