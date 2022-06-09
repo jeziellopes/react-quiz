@@ -1,0 +1,7 @@
+export * from '@adapters/redux/actions/correct-answers-count'
+export * from '@adapters/redux/actions/load-questions'
+export * from '@adapters/redux/actions/update-question'
+export * from '@adapters/redux/actions/update-question-index'
+export * from '@adapters/redux/actions/update-question-answer'
+export * from '@adapters/redux/actions/update-questions'
+export * from '@adapters/redux/actions/reset-quiz'
