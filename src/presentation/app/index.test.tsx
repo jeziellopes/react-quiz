@@ -4,6 +4,6 @@ import React from 'react'
 
 test('renders react quiz title', () => {
   render(<App />)
-  const linkElement = screen.getByText(/React Quiz/i)
+  const linkElement = screen.getByText(/Quiz/i)
   expect(linkElement).toBeInTheDocument()
 })

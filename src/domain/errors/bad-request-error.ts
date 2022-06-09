@@ -1,5 +1,5 @@
 export class BadRequestError extends Error {
-  constructor () {
+  constructor() {
     super('Invalid or corrupted request.')
     this.name = 'BadRequestError'
   }
